@@ -1,0 +1,34 @@
+What do the game designers need to learn?
+
+Week 1 - Worksheet - Basics
+------------------
+- print string, 'hello blueprints' on event BeginPlay
+- create text UI
+- create a blueprint and expose some parameters
+- create a blueprint and expose a function (strong attack, weak attack). Changing variable with show a different attack.
+
+MORE DETAIL IN THE ASYNC SLIDES
+
+Week 2 - Worksheet - Meshes & UI
+------------------
+- make blueprint, expose static mesh (material), set the material inside the blueprint
+** NOTE: Out of date for UE5 **
+** No M_Wood_Oak material **
+** No blueprint explosion effect **
+
+- Use ActorBeginOverlap, get the actors transform, then use SpawnActorBlueprintEffectExplosion! after that, destroy actor.
+- Bind keyboard events to switching p1, p2, p3. Possess a character.
+- make a HUD and add a timer, timer gets updated every second
+
+MORE DETAIL IN THE ASYNC SLIDES
+
+Week 3 - Worksheet - particles, triggering & lighting
+------------------
+(references something that hasn't been built)
+- add some sparks above a mesh (capsule)
+- adding a rank variable to the HUD
+** Referencing previous worksheets that don't exist. Out of sequence. **
+** Skipping this! **
+
+- adding point lights to a level, add a trigger volume, on collision trigger all the lights to turn on!
+- use an Enum (capsule, cube, cone) to switch out the static mesh type!
